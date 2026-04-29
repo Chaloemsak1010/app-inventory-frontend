@@ -1,0 +1,57 @@
+TODAY Task:
+          
+        // autocomplete="off" , for all input   
+
+        // https://red.anthropic.com/2026/mythos-preview/
+
+
+Task :
+        
+        / RBAC control config
+        / user management --> attach role bla bla
+
+        / create user [How about sub menu]
+        / login
+        / logout
+
+        / tech stack should be multiple selector
+
+        / Interface app : Should we create new table , recursive function?
+
+        / CN for server and module should be multiple.
+
+        optional:
+            export to csv file , to see all app data
+
+How about DNS name
+
+NOTE:
+   -- App <--> Modules (Not allow to de-attach).
+
+path design:
+/                     — Show All Applications
+/login                - login page 
+/dashboard            — Overview of applications, services and infrastructure
+/create               — Create New Application
+    /create/overview    — App Overview
+    /create/dev-info    — Development Info (only dev  can edit)
+    /create/infra-info  — Infrastructure Info (only infra can edit)
+    /create/cyber-info  — Cybersecurity Info (only cyber can edit)
+/app/?app_id AppID      - Show overview of and all info about that app (Example: app-001)
+/admin                  — Admin & Permissions 
+/dependency-analysis       — Shared Modules (search by app or module)
+/module register        - create module or service without parent.
+/*                      - 404 page
+
+
+OTM trick:
+-[form] RHF
+
+Refers:
+[React Flow UI] https://reactflow.dev/
+[Headless UI]  https://headlessui.com/
+[Donat chart]  https://recharts.github.io/en-US/examples/
+
+
+What's next : git action , Kubernetes , Lens , playwright with git actions
+
