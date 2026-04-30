@@ -94,7 +94,7 @@ export default function CreateApp({ role : initialRole = "ADMIN" }) {
 
         <div  className="space-y-2 lg:space-y-8 pb-10 lg:pb-12">
           {/* APPLICATION OVERVIEW SECTION - Everyone can fill */}
-          {/* <AppOverviewForm appId = {appId} setAppId = {setAppId} /> */}
+           <AppOverviewForm appId = {appId} setAppId = {setAppId} /> 
 
           {/* DEVELOPMENT INFORMATION SECTION - DEV and ADMIN only */}
           {canFillDevelopmentInfo && (
